@@ -1,0 +1,311 @@
+﻿{
+	"Features": [
+	  {
+		"RelativeFolder": "FeatureCrawlerTests\\SubLevelOne\\SubLevelTwo\\LevelOneSublevelOneSubLevelTwo.feature",
+		"Feature": {
+		  "Name": "Addition",
+		  "Description": "In order to avoid silly mistakes\r\nAs a math idiot\r\nI want to be told the sum of two numbers",
+		  "FeatureElements": [
+			{
+			  "Name": "Add two numbers",
+			  "Description": "",
+			  "Steps": [
+				{
+				  "Keyword": "Given",
+				  "NativeKeyword": "Given ",
+				  "Name": "I have entered 50 into the calculator"
+				},
+				{
+				  "Keyword": "And",
+				  "NativeKeyword": "And ",
+				  "Name": "I have entered 70 into the calculator"
+				},
+				{
+				  "Keyword": "When",
+				  "NativeKeyword": "When ",
+				  "Name": "I press add"
+				},
+				{
+				  "Keyword": "Then",
+				  "NativeKeyword": "Then ",
+				  "Name": "the result should be 120 on the screen"
+				}
+			  ],
+			  "Tags": [
+				"@mytag"
+			  ]
+			}
+		  ],
+		  "Tags": [ "@mytag" ]
+		}
+	  },
+	  {
+		"RelativeFolder": "FeatureCrawlerTests\\SubLevelOne\\LevelOneSublevelTwo.feature",
+		"Feature": {
+		  "Name": "Subtraction",
+		  "Description": "In order to avoid silly mistakes\r\nAs a math idiot\r\nI want to be told the difference of two numbers",
+		  "FeatureElements": [
+			{
+			  "Name": "Subtract two numbers",
+			  "Description": "",
+			  "Steps": [
+				{
+				  "Keyword": "Given",
+				  "NativeKeyword": "Given ",
+				  "Name": "I have entered 50 into the calculator"
+				},
+				{
+				  "Keyword": "And",
+				  "NativeKeyword": "And ",
+				  "Name": "I have entered 70 into the calculator"
+				},
+				{
+				  "Keyword": "When",
+				  "NativeKeyword": "When ",
+				  "Name": "I press add"
+				},
+				{
+				  "Keyword": "Then",
+				  "NativeKeyword": "Then ",
+				  "Name": "the result should be 120 on the screen"
+				}
+			  ],
+			  "Tags": [
+				"@mytag"
+			  ]
+			}
+		  ],
+		  "Tags": []
+		}
+	  },
+	  {
+		"RelativeFolder": "FeatureCrawlerTests\\SubLevelOne\\LevelOneSublevelOne.feature",
+		"Feature": {
+		  "Name": "Multiplication",
+		  "Description": "In order to avoid silly mistakes\r\nAs a math idiot\r\nI want to be told the product of two numbers",
+		  "FeatureElements": [
+			{
+			  "Name": "Multiply two numbers",
+			  "Description": "",
+			  "Steps": [
+				{
+				  "Keyword": "Given",
+				  "NativeKeyword": "Given ",
+				  "Name": "I have entered 50 into the calculator"
+				},
+				{
+				  "Keyword": "And",
+				  "NativeKeyword": "And ",
+				  "Name": "I have entered 70 into the calculator"
+				},
+				{
+				  "Keyword": "When",
+				  "NativeKeyword": "When ",
+				  "Name": "I press add"
+				},
+				{
+				  "Keyword": "Then",
+				  "NativeKeyword": "Then ",
+				  "Name": "the result should be 120 on the screen"
+				}
+			  ],
+			  "Tags": [
+				"@mytag"
+			  ]
+			}
+		  ],
+		  "Tags": []
+		}
+	  },
+	  {
+		"RelativeFolder": "FeatureCrawlerTests\\LevelOne.feature",
+		"Feature": {
+		  "Name": "Division",
+		  "Description": "In order to avoid silly mistakes\r\nAs a math idiot\r\nI want to be told the quotient of two numbers",
+		  "FeatureElements": [
+			{
+			  "Name": "Divide two numbers",
+			  "Description": "",
+			  "Steps": [
+				{
+				  "Keyword": "Given",
+				  "NativeKeyword": "Given ",
+				  "Name": "I have entered 50 into the calculator"
+				},
+				{
+				  "Keyword": "And",
+				  "NativeKeyword": "And ",
+				  "Name": "I have entered 70 into the calculator"
+				},
+				{
+				  "Keyword": "When",
+				  "NativeKeyword": "When ",
+				  "Name": "I press add"
+				},
+				{
+				  "Keyword": "Then",
+				  "NativeKeyword": "Then ",
+				  "Name": "the result should be 120 on the screen"
+				}
+			  ],
+			  "Tags": [
+				"@mytag"
+			  ]
+			}
+		  ],
+		  "Tags": []
+		}
+	  },
+	  {
+		"RelativeFolder": "AcceptanceTest\\LevelOne.feature",
+		"Feature": {
+		  "Name": "Exponent",
+		  "Description": "In order to avoid silly mistakes\r\nAs a math idiot\r\nI want to be told the result of two numbers",
+		  "FeatureElements": [
+			{
+			  "Name": "Take exponent of a number",
+			  "Description": "",
+			  "Steps": [
+				{
+				  "Keyword": "Given",
+				  "NativeKeyword": "Given ",
+				  "Name": "I have entered 50 into the calculator"
+				},
+				{
+				  "Keyword": "And",
+				  "NativeKeyword": "And ",
+				  "Name": "I have entered 70 into the calculator"
+				},
+				{
+				  "Keyword": "When",
+				  "NativeKeyword": "When ",
+				  "Name": "I press add"
+				},
+				{
+				  "Keyword": "Then",
+				  "NativeKeyword": "Then ",
+				  "Name": "the result should be 120 on the screen"
+				}
+			  ],
+			  "Tags": [
+				"@mytag"
+			  ]
+			}
+		  ],
+		  "Tags": []
+		}
+	  },
+	  {
+		"RelativeFolder": "AcceptanceTest\\AdvancedFeature.feature",
+		"Feature": {
+		  "Name": "Feature title",
+		  "Description": "In order to avoid silly mistakes\r\nAs a math idiot\r\nI want to be told the sum of two numbers",
+		  "FeatureElements": [
+			{
+			  "Name": "Simple Scenario",
+			  "Description": "",
+			  "Steps": [
+				{
+				  "Keyword": "Given",
+				  "NativeKeyword": "Given ",
+				  "Name": "simple scenario given"
+				},
+				{
+				  "Keyword": "And",
+				  "NativeKeyword": "And ",
+				  "Name": "simple scenario given and"
+				},
+				{
+				  "Keyword": "When",
+				  "NativeKeyword": "When ",
+				  "Name": "simple scenario when"
+				},
+				{
+				  "Keyword": "Then",
+				  "NativeKeyword": "Then ",
+				  "Name": "simple scenario then"
+				}
+			  ],
+			  "Tags": [
+				"@simpleScenario"
+			  ]
+			},
+			{
+			  "Name": "Scenario outline example",
+			  "Description": "",
+			  "Steps": [
+				{
+				  "Keyword": "Given",
+				  "NativeKeyword": "Given ",
+				  "Name": "outline given <value 1>"
+				},
+				{
+				  "Keyword": "When",
+				  "NativeKeyword": "When ",
+				  "Name": "outline when <value 2>"
+				},
+				{
+				  "Keyword": "Then",
+				  "NativeKeyword": "Then ",
+				  "Name": "outline then <value 3>"
+				},
+				{
+				  "Keyword": "But",
+				  "NativeKeyword": "But ",
+				  "Name": "nothing important here"
+				}
+			  ],
+			  "Tags": [],
+			  "Example": {
+				"Name": "",
+				"TableArgument": {
+				  "HeaderRow": [
+					"value 1",
+					"value 2",
+					"value 3"
+				  ],
+				  "DataRows": [
+					[
+					  "123",
+					  "456",
+					  "789"
+					],
+					[
+					  "abc",
+					  "def",
+					  "ghi"
+					]
+				  ]
+				}
+			  }
+			}
+		  ],
+		  "Background": {
+			"Name": "Background name",
+			"Description": "",
+			"Steps": [
+			  {
+				"Keyword": "Given",
+				"NativeKeyword": "Given ",
+				"Name": "background given"
+			  },
+			  {
+				"Keyword": "When",
+				"NativeKeyword": "When ",
+				"Name": "background when"
+			  },
+			  {
+				"Keyword": "Then",
+				"NativeKeyword": "Then ",
+				"Name": "background then"
+			  }
+			],
+			"Tags": []
+		  },
+		  "Tags": [
+			"@FeatureTag"
+		  ]
+		}
+	  }
+	]
+}

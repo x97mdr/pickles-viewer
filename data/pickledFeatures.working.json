@@ -1,0 +1,18 @@
+﻿{
+	"Features": [
+	  {
+		"RelativeFolder": "FeatureCrawlerTests\\SubLevelOne\\SubLevelTwo\\LevelOneSublevelOneSubLevelTwo.feature",
+		"Feature": {
+		  "Name": "Addition",
+		  "Description": "In order to avoid silly mistakes\r\nAs a math idiot\r\nI want to be told the sum of two numbers"
+		}
+	  },
+	  {
+		"RelativeFolder": "FeatureCrawlerTests\\SubLevelOne\\LevelOneSublevelTwo.feature",
+		"Feature": {
+		  "Name": "Subtraction",
+		  "Description": "In order to avoid silly mistakes\r\nAs a math idiot\r\nI want to be told the sum of two numbers"
+		}
+	  }
+	]
+}
