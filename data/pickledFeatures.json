@@ -31,9 +31,7 @@
 				  "Name": "the result should be 120 on the screen"
 				}
 			  ],
-			  "Tags": [
-				"@mytag"
-			  ]
+			  "Tags": [ "@mytag" ]
 			}
 		  ],
 		  "Tags": [ "@mytag" ]

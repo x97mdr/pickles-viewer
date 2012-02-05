@@ -21,12 +21,18 @@
   </head>
   <body>  
     <div class="container">
-      <div class="filterbox">
-        <input type="button">search filter here</input>
-      </div>
-      
+      <div id="top">&nbsp;</div>
+      <div class="toc">&nbsp;</div>
       <div class="features">
-      <!-- ko foreach: Features -->
+        <div class="filterbox">
+          <p>
+              Filter by features containing this text:
+              <b data-bind="visible: !filtering(), text: filterText, click: filter">&nbsp;</b>
+              <input data-bind="visible: filtering, value: filterText, hasfocus: filtering" />
+          </p>
+        </div>
+      
+      <!-- ko foreach: featureSet.Features -->
         <div class="feature">
           <div class="tags" data-bind="visible: Feature.Tags">
             <ul data-bind="foreach: Feature.Tags">
@@ -40,8 +46,8 @@
           <ul class="scenarios" data-bind="foreach: Feature.FeatureElements">
             <li class="scenario">
               <div class="scenario-heading">
-                <div class="tags" data-bind="visible: $data.Tags">
-                  <ul data-bind="foreach: $data.Tags">
+                <div class="tags" data-bind="visible: Tags">
+                  <ul data-bind="foreach: Tags">
                     <li class="tag" data-bind="text: $data"></li>
                   </ul>
                 </div>
@@ -51,7 +57,8 @@
               <div class="steps">
                 <ul data-bind="foreach: Steps">
                   <li class="step">
-                    <span class="keyword" data-bind="text: NativeKeyword"></span><span data-bind="text: Name"></span>
+                    <span class="keyword" data-bind="text: NativeKeyword"></span>
+                    <span data-bind="text: Name"></span>
                   </li>
                 </ul>
               </div>
@@ -60,11 +67,17 @@
         </div>
       <!-- /ko -->
       </div>
+      <div class="footer"></div>
     </div>
     
     <script type="text/javascript">
       var data = $.getJSON("data/pickledFeatures.json", function(data) {
-        var viewModel = ko.mapping.fromJS(data);
+        var viewModel = { 
+          featureSet : ko.mapping.fromJS(data),
+          filtering: ko.observable(false),
+          filterText: ko.observable("select text to filter features"),
+          filter : function() { this.filtering(true) }
+        };
         ko.applyBindings(viewModel);
       });
     </script>
